@@ -2,17 +2,17 @@ package lesson_1
 
 fun main() {
     val yearOfGagarinFlight = "1961"
-    var hourOfFlight = "взлёт в 09:"
-    var minuteOfFlight = ":07"
+    var hourOfFlight = "09"
+    var minuteOfFlight = "07"
 
-    println(yearOfGagarinFlight)
-    println(hourOfFlight)
-    println(minuteOfFlight)
+    println("год полёта: $yearOfGagarinFlight")
+    println("час взлёта: $hourOfFlight")
+    println("минута взлёта: $minuteOfFlight")
 
-    hourOfFlight = "посадка в 10:"
+    hourOfFlight = "10"
     minuteOfFlight = "55"
 
-    print(hourOfFlight)
+    print("посадка: $hourOfFlight:")
     println(minuteOfFlight)
 
 }
